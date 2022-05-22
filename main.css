@@ -1,0 +1,66 @@
+section{
+display: grid;
+grid-template-areas:
+'square-1 square-2 square-3';
+'square-4 square-5 square-6';
+'square-7 square-8 square-9';
+
+
+}
+
+.row{
+  /* display: flex; */
+}
+
+.square{
+  border:2px solid #000;
+  background: cyan;
+  width: 100%;
+  height: 186px;
+}
+
+.square-human{
+  background: green;
+}
+
+.square-computer{
+  background: red;
+}
+
+
+#square-1{
+  grid-area:square-1;
+}
+
+#square-2{
+  grid-area:square-2;
+}
+
+#square-3{
+  grid-area:square-3;
+}
+
+#square-4{
+  grid-area:square-4;
+}
+
+#square-5{
+  grid-area:square-5;
+}
+
+#square-6{
+  grid-area:square-6;
+}
+
+#square-7{
+  grid-area:square-7;
+}
+
+#square-8{
+  grid-area:square-8;
+}
+
+
+#square-9{
+  grid-area:square-9;
+}
